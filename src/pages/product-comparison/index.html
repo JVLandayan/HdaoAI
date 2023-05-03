@@ -10,12 +10,16 @@
 </head>
 <body>
     <section id="main-container" class="bg-[#101927FF] min-h-screen px-[3%] lg:px-[25%] py-[2%]">
-        <div id="sub-container" class="flex flex-col">
-            <div id="title" class="flex justify-center text-center text-white text-5xl font-bold pt-10 pb-16 ">
+
+        <div id="sub-container relative" class="flex flex-col">
+            <div id="title" class="flex justify-center text-center text-white text-5xl font-bold pt-10 pb-16">
                 AI Product Comparison
             </div>
-            <div class="grid grid-cols-1 gap-y-7 text-white">
-                <div class="grid grid-cols-3 gap-x-2" id="label">
+            <div class="grid grid-cols-1 gap-y-7 pt-2 pb-4 text-white relative">
+                <div class="w-[32%] h-[100%] bg-[#8F47FFFF] rounded-lg absolute bottom-0 right-0 z-0">
+
+                </div>
+                <div class="grid grid-cols-3 gap-x-2 z-10" id="label">
                     <div>&nbsp;</div>
                     <div class="text-lg font-bold uppercase grid-item text-center">
                         Rival Platform AI Products
@@ -24,7 +28,7 @@
                         HumanDao AI
                     </div>
                 </div>
-                <div class="grid grid-cols-3 gap-x-2" id="sub-label">
+                <div class="grid grid-cols-3 gap-x-2 z-10" id="sub-label">
                     <div class="text-2xl font-bold grid-label-item">
                         Key Features
                     </div>
